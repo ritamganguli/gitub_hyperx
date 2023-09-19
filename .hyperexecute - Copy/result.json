@@ -1,0 +1,167 @@
+{
+    "id": "0b1943b6-2827-43b6-95d7-340878ccc10c",
+    "created_at": "2023-08-22T21:52:36Z",
+    "update_at": "2023-08-22T21:55:14Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2023-08-22T21:53:27Z",
+    "end_time": "2023-08-22T21:55:14Z",
+    "summary": {
+        "total_time": 107000000000,
+        "execution_time": 107000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 212000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 2,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=0b1943b6-2827-43b6-95d7-340878ccc10c"
+    },
+    "tasks": [
+        {
+            "id": "20373822-eac1-4637-baf1-e97d46f18b08",
+            "os": "linux",
+            "status": "failed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-08-22T21:53:26Z",
+            "update_at": "2023-08-22T21:55:14Z",
+            "start_time": "2023-08-22T21:53:27Z",
+            "end_time": "2023-08-22T21:55:14Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "c0a74a11-6103-4cdb-844e-08978a0f0e87",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-08-22T21:53:33Z",
+                    "started_at": "2023-08-22T21:53:35Z",
+                    "updated_at": "2023-08-22T21:53:38Z",
+                    "order": 2
+                },
+                {
+                    "id": "ba61dda3-466e-4cb8-91ca-ae0c797de927",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-08-22T21:53:40Z",
+                    "started_at": "2023-08-22T21:53:41Z",
+                    "updated_at": "2023-08-22T21:53:42Z",
+                    "order": 3
+                },
+                {
+                    "id": "b2e4eb72-cb32-422e-8d25-61fe739db567",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/mobile/androidWeb.py",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-08-22T21:53:44Z",
+                    "started_at": "2023-08-22T21:53:49Z",
+                    "updated_at": "2023-08-22T21:55:06Z",
+                    "order": 4
+                },
+                {
+                    "id": "936bcabd-e232-40f4-af7a-68c6c95f2567",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2023-08-22T21:53:44Z",
+                    "started_at": "2023-08-22T21:55:08Z",
+                    "updated_at": "2023-08-22T21:55:09Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "c4a0c2d3-c7af-452d-8766-6c707e2d92b5",
+            "os": "linux",
+            "status": "failed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2023-08-22T21:53:26Z",
+            "update_at": "2023-08-22T21:55:12Z",
+            "start_time": "2023-08-22T21:53:27Z",
+            "end_time": "2023-08-22T21:55:12Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "ca8af648-9231-4936-827c-2fbfe598e6be",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2023-08-22T21:53:33Z",
+                    "started_at": "2023-08-22T21:53:34Z",
+                    "updated_at": "2023-08-22T21:53:37Z",
+                    "order": 2
+                },
+                {
+                    "id": "47b4a563-f75d-4a4e-ad0b-3e743c23be5c",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2023-08-22T21:53:40Z",
+                    "started_at": "2023-08-22T21:53:41Z",
+                    "updated_at": "2023-08-22T21:53:42Z",
+                    "order": 3
+                },
+                {
+                    "id": "07a94e30-18f9-4e28-a4b6-883cfee53836",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/mobile/iosWeb.py",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2023-08-22T21:53:44Z",
+                    "started_at": "2023-08-22T21:53:49Z",
+                    "updated_at": "2023-08-22T21:55:04Z",
+                    "order": 4
+                },
+                {
+                    "id": "877f3efd-0aa2-4b3d-93ab-133aac2e4265",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2023-08-22T21:53:44Z",
+                    "started_at": "2023-08-22T21:55:06Z",
+                    "updated_at": "2023-08-22T21:55:07Z",
+                    "order": 5
+                }
+            ]
+        }
+    ]
+}
