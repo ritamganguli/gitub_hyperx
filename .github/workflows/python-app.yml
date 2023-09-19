@@ -1,17 +1,9 @@
 name: Hyperexecute-Playwright
 on:
-  workflow_dispatch:
-    inputs:
-      username:
-        required: true
-        description: LT Username
-      accessKey:
-        description: LT Access Key
-        required: true
-      sampleRepoLink:
-        description: Link to the HyperExecute sample repo
-        default: https://github.com/prateekLambda/HyperExecute-Playwright-Vanilla-Javascript
-        required: true
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 jobs:
   HyperExecute-Playwright:
     runs-on: ${{ matrix.os }}
