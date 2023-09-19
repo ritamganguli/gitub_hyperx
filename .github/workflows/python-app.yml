@@ -1,4 +1,4 @@
-name: Hyperexecute-Playwright
+name: Hyperexecute-Github-Actions
 on:
   push:
     branches: [ "main" ]
