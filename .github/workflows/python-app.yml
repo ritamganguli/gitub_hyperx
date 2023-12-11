@@ -20,4 +20,4 @@ jobs:
         shell: bash
         run: |
             curl https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe -o hyperexecute.exe
-            ./hyperexecute --user=shubhamr --key=dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh --config yaml/win/py_hyex_matrix.yaml
+            ./hyperexecute.exe --user=shubhamr --key=dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh --config yaml/win/py_hyex_matrix.yaml
